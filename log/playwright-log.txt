@@ -1,0 +1,636 @@
+{"level":30,"time":"2022-04-22T16:37:42.071Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Listening on 50192"}
+{"level":30,"time":"2022-04-22T16:37:42.110Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:37:42.111Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:37:42.114Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:37:42.115Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:37:42.122Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-04-22T16:37:44.097Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-04-22T16:37:44.104Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-04-22T16:37:44.104Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-04-22T16:37:44.165Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:37:44.558Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Video path: undefined"}
+{"level":30,"time":"2022-04-22T16:37:44.559Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:37:47.666Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method newPage"}
+{"level":30,"time":"2022-04-22T16:37:47.681Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:37:47.683Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with xpath=//span[contains(.,'Nunca foi tão engraçado pedir comida')] in page."}
+{"level":30,"time":"2022-04-22T16:37:47.927Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element xpath=//span[contains(.,'Nunca foi tão engraçado pedir comida')] containing Nunca foi tão engraçado pedir comida"}
+{"level":30,"time":"2022-04-22T16:37:47.927Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:37:47.934Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:37:47.934Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with text=Estou com fome! in page."}
+{"level":30,"time":"2022-04-22T16:37:48.102Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:37:48.108Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:37:48.108Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with h1 strong in page."}
+{"level":30,"time":"2022-04-22T16:37:48.138Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element h1 strong containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2022-04-22T16:37:48.138Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:37:48.145Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:37:48.145Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=.search-link in page."}
+{"level":30,"time":"2022-04-22T16:37:48.214Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:37:48.220Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-04-22T16:37:48.221Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=input[formcontrolname=\"searchControl\"] in page."}
+{"level":30,"time":"2022-04-22T16:37:48.328Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method fillText"}
+{"level":30,"time":"2022-04-22T16:37:48.336Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:37:48.336Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=div[class=\"place-info-box\"][style=\"opacity: 1;\"] in page."}
+{"level":30,"time":"2022-04-22T16:37:48.729Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: "div[class="place-info-box"][style="opacity: 1;"]" resolved to 5 elements:
+    1) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+=========================== logs ===========================
+waiting for selector "css=div[class="place-info-box"][style="opacity: 1;"]" to be visible
+============================================================
+    at waitForElementState (C:\Users\Elielson\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6472:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Elielson\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7757:28)
+=============================================================
+{"level":30,"time":"2022-04-22T16:37:48.737Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:37:48.737Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=div[class=\"place-info-box\"][style=\"opacity: 1;\"] in page."}
+{"level":30,"time":"2022-04-22T16:37:48.818Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: "div[class="place-info-box"][style="opacity: 1;"]" resolved to 5 elements:
+    1) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+=========================== logs ===========================
+waiting for selector "css=div[class="place-info-box"][style="opacity: 1;"]" to be visible
+  strict mode violation: "div[class="place-info-box"][style="opacity: 1;"]" resolved to 5 elements:
+    1) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+============================================================
+    at waitForElementState (C:\Users\Elielson\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6472:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Elielson\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7757:28)
+=============================================================
+{"level":30,"time":"2022-04-22T16:37:48.823Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:37:48.823Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=div[class=\"place-info-box\"][style=\"opacity: 1;\"] in page."}
+{"level":30,"time":"2022-04-22T16:37:48.905Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: "div[class="place-info-box"][style="opacity: 1;"]" resolved to 5 elements:
+    1) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+=========================== logs ===========================
+waiting for selector "css=div[class="place-info-box"][style="opacity: 1;"]" to be visible
+  strict mode violation: "div[class="place-info-box"][style="opacity: 1;"]" resolved to 5 elements:
+    1) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+============================================================
+    at waitForElementState (C:\Users\Elielson\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6472:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Elielson\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7757:28)
+=============================================================
+{"level":30,"time":"2022-04-22T16:37:48.910Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:37:48.911Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=div[class=\"place-info-box\"][style=\"opacity: 1;\"] in page."}
+{"level":30,"time":"2022-04-22T16:37:48.957Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: "div[class="place-info-box"][style="opacity: 1;"]" resolved to 5 elements:
+    1) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+=========================== logs ===========================
+waiting for selector "css=div[class="place-info-box"][style="opacity: 1;"]" to be visible
+  strict mode violation: "div[class="place-info-box"][style="opacity: 1;"]" resolved to 5 elements:
+    1) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+============================================================
+    at waitForElementState (C:\Users\Elielson\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6472:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Elielson\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7757:28)
+=============================================================
+{"level":30,"time":"2022-04-22T16:37:48.961Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:37:48.961Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=div[class=\"place-info-box\"][style=\"opacity: 1;\"] in page."}
+{"level":30,"time":"2022-04-22T16:37:49.014Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: "div[class="place-info-box"][style="opacity: 1;"]" resolved to 5 elements:
+    1) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+=========================== logs ===========================
+waiting for selector "css=div[class="place-info-box"][style="opacity: 1;"]" to be visible
+  strict mode violation: "div[class="place-info-box"][style="opacity: 1;"]" resolved to 5 elements:
+    1) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+============================================================
+    at waitForElementState (C:\Users\Elielson\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6472:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Elielson\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7757:28)
+=============================================================
+{"level":30,"time":"2022-04-22T16:37:49.017Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:37:49.017Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=div[class=\"place-info-box\"][style=\"opacity: 1;\"] in page."}
+{"level":30,"time":"2022-04-22T16:37:49.335Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:37:49.342Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:37:49.342Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=.place-info-box in page."}
+{"level":30,"time":"2022-04-22T16:37:49.364Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=.place-info-box containing DEBUGER KING\n 3.5\nHamburgers\n100m"}
+{"level":30,"time":"2022-04-22T16:37:49.364Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:37:49.368Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-04-22T16:37:49.369Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is disabled, return Locator: css=.place-info-box in page."}
+{"level":30,"time":"2022-04-22T16:37:49.373Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-04-22T16:37:49.381Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-04-22T16:37:49.528Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-04-22T16:37:49.532Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:37:49.537Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:37:49.542Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:37:49.543Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changing current active page"}
+{"level":30,"time":"2022-04-22T16:37:49.543Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:37:49.551Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:37:49.554Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:37:49.557Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:37:49.557Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:37:49.560Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:37:49.561Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:37:49.571Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:37:49.571Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changing current active page"}
+{"level":30,"time":"2022-04-22T16:37:49.571Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:37:49.577Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-04-22T16:37:49.621Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-04-22T16:37:49.643Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:37:49.643Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:37:49.649Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-04-22T16:37:51.364Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-04-22T16:37:51.370Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-04-22T16:37:51.370Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-04-22T16:37:51.434Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:37:51.768Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Video path: undefined"}
+{"level":30,"time":"2022-04-22T16:37:51.768Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:37:54.775Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method newPage"}
+{"level":30,"time":"2022-04-22T16:37:54.782Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:37:54.782Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with xpath=//span[contains(.,'Nunca foi tão engraçado pedir comida')] in page."}
+{"level":30,"time":"2022-04-22T16:37:54.999Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element xpath=//span[contains(.,'Nunca foi tão engraçado pedir comida')] containing Nunca foi tão engraçado pedir comida"}
+{"level":30,"time":"2022-04-22T16:37:54.999Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:37:55.003Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:37:55.003Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with text=Estou com fome! in page."}
+{"level":30,"time":"2022-04-22T16:37:55.129Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:37:55.132Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:37:55.133Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with h1 strong in page."}
+{"level":30,"time":"2022-04-22T16:37:55.157Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element h1 strong containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2022-04-22T16:37:55.157Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:37:55.164Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:37:55.165Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=.search-link in page."}
+{"level":30,"time":"2022-04-22T16:37:55.231Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:37:55.234Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-04-22T16:37:55.234Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=input[formcontrolname=\"searchControl\"] in page."}
+{"level":30,"time":"2022-04-22T16:37:55.324Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method fillText"}
+{"level":30,"time":"2022-04-22T16:37:55.334Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:37:55.334Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=div[class=\"place-info-box\"][style=\"opacity: 1;\"] in page."}
+{"level":30,"time":"2022-04-22T16:37:55.727Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: "div[class="place-info-box"][style="opacity: 1;"]" resolved to 5 elements:
+    1) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+=========================== logs ===========================
+waiting for selector "css=div[class="place-info-box"][style="opacity: 1;"]" to be visible
+============================================================
+    at waitForElementState (C:\Users\Elielson\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6472:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Elielson\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7757:28)
+=============================================================
+{"level":30,"time":"2022-04-22T16:37:55.732Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:37:55.733Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=div[class=\"place-info-box\"][style=\"opacity: 1;\"] in page."}
+{"level":30,"time":"2022-04-22T16:37:55.912Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: "div[class="place-info-box"][style="opacity: 1;"]" resolved to 5 elements:
+    1) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+=========================== logs ===========================
+waiting for selector "css=div[class="place-info-box"][style="opacity: 1;"]" to be visible
+  strict mode violation: "div[class="place-info-box"][style="opacity: 1;"]" resolved to 5 elements:
+    1) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+============================================================
+    at waitForElementState (C:\Users\Elielson\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6472:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Elielson\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7757:28)
+=============================================================
+{"level":30,"time":"2022-04-22T16:37:55.916Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:37:55.916Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=div[class=\"place-info-box\"][style=\"opacity: 1;\"] in page."}
+{"level":30,"time":"2022-04-22T16:37:56.009Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Error: strict mode violation: "div[class="place-info-box"][style="opacity: 1;"]" resolved to 5 elements:
+    1) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+=========================== logs ===========================
+waiting for selector "css=div[class="place-info-box"][style="opacity: 1;"]" to be visible
+  strict mode violation: "div[class="place-info-box"][style="opacity: 1;"]" resolved to 5 elements:
+    1) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Pizza Bug 4.9 Pizzaria 25m") >> nth=2")
+    2) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Debuger King 3.5 Hamburgers 100m") >> nth=2")
+    3) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Starbugs Coffee 4.8 Cafeteria 30-40m") >> nth=2")
+    4) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Habit`s 4.1 Comida Árabe Binária 75m") >> nth=2")
+    5) <div class="place-info-box">…</div> aka playwright.$("mt-restaurants div:has-text("Macintosh 4.5 Lanchonete 40-65m") >> nth=2")
+
+============================================================
+    at waitForElementState (C:\Users\Elielson\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:6472:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\Elielson\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:7757:28)
+=============================================================
+{"level":30,"time":"2022-04-22T16:37:56.012Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:37:56.013Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=div[class=\"place-info-box\"][style=\"opacity: 1;\"] in page."}
+{"level":30,"time":"2022-04-22T16:37:56.382Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:37:56.387Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:37:56.387Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=.place-info-box in page."}
+{"level":30,"time":"2022-04-22T16:37:56.412Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=.place-info-box containing STARBUGS COFFEE\n 4.8\nCafeteria\n30-40m"}
+{"level":30,"time":"2022-04-22T16:37:56.412Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:37:56.419Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-04-22T16:37:56.420Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is disabled, return Locator: css=.place-info-box in page."}
+{"level":30,"time":"2022-04-22T16:37:56.425Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-04-22T16:37:56.431Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-04-22T16:37:56.599Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-04-22T16:37:56.604Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:37:56.608Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:37:56.611Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:37:56.611Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changing current active page"}
+{"level":30,"time":"2022-04-22T16:37:56.611Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:37:56.618Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:37:56.621Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:37:56.624Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:37:56.625Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:37:56.627Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:37:56.627Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:37:56.634Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:37:56.634Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changing current active page"}
+{"level":30,"time":"2022-04-22T16:37:56.634Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:37:56.638Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-04-22T16:37:56.683Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-04-22T16:37:56.690Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:37:56.690Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:37:56.695Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-04-22T16:37:58.359Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-04-22T16:37:58.363Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-04-22T16:37:58.363Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-04-22T16:37:58.384Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:37:58.783Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Video path: undefined"}
+{"level":30,"time":"2022-04-22T16:37:58.783Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:38:01.638Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method newPage"}
+{"level":30,"time":"2022-04-22T16:38:01.643Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:01.643Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with xpath=//span[contains(.,'Nunca foi tão engraçado pedir comida')] in page."}
+{"level":30,"time":"2022-04-22T16:38:01.843Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element xpath=//span[contains(.,'Nunca foi tão engraçado pedir comida')] containing Nunca foi tão engraçado pedir comida"}
+{"level":30,"time":"2022-04-22T16:38:01.843Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:01.849Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:01.849Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with text=Estou com fome! in page."}
+{"level":30,"time":"2022-04-22T16:38:01.974Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:01.977Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:01.977Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with h1 strong in page."}
+{"level":30,"time":"2022-04-22T16:38:01.993Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element h1 strong containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2022-04-22T16:38:01.994Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:01.999Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:01.999Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=.search-link in page."}
+{"level":30,"time":"2022-04-22T16:38:02.046Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:02.050Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-04-22T16:38:02.050Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=input[formcontrolname=\"searchControl\"] in page."}
+{"level":30,"time":"2022-04-22T16:38:02.077Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method fillText"}
+{"level":30,"time":"2022-04-22T16:38:02.084Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-04-22T16:38:02.084Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is disabled, return Locator: css=.place-info-box in page."}
+{"level":30,"time":"2022-04-22T16:38:02.090Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-04-22T16:38:02.107Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-04-22T16:38:02.107Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is disabled, return Locator: css=.place-info-box in page."}
+{"level":30,"time":"2022-04-22T16:38:02.109Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-04-22T16:38:02.124Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2022-04-22T16:38:02.124Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is disabled, return Locator: css=.place-info-box in page."}
+{"level":30,"time":"2022-04-22T16:38:02.158Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getElementCount"}
+{"level":30,"time":"2022-04-22T16:38:02.166Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-04-22T16:38:02.553Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-04-22T16:38:02.558Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:02.580Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:02.585Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:38:02.585Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changing current active page"}
+{"level":30,"time":"2022-04-22T16:38:02.585Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:38:02.593Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:02.728Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:02.733Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:38:02.734Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:38:02.738Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:38:02.738Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:38:02.745Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:38:02.745Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changing current active page"}
+{"level":30,"time":"2022-04-22T16:38:02.745Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:38:02.756Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-04-22T16:38:02.807Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-04-22T16:38:02.821Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:02.821Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:02.858Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:02.858Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:02.862Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:02.862Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:02.868Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-04-22T16:38:04.571Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-04-22T16:38:04.575Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-04-22T16:38:04.576Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-04-22T16:38:04.589Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:38:05.002Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Video path: undefined"}
+{"level":30,"time":"2022-04-22T16:38:05.002Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:38:08.160Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method newPage"}
+{"level":30,"time":"2022-04-22T16:38:08.167Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:08.167Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with xpath=//span[contains(.,'Nunca foi tão engraçado pedir comida')] in page."}
+{"level":30,"time":"2022-04-22T16:38:08.378Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element xpath=//span[contains(.,'Nunca foi tão engraçado pedir comida')] containing Nunca foi tão engraçado pedir comida"}
+{"level":30,"time":"2022-04-22T16:38:08.378Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:08.386Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:08.386Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with text=Estou com fome! in page."}
+{"level":30,"time":"2022-04-22T16:38:08.535Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:08.538Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:08.538Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with h1 strong in page."}
+{"level":30,"time":"2022-04-22T16:38:08.557Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element h1 strong containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2022-04-22T16:38:08.557Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:08.562Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:08.562Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with text=STARBUGS COFFEE in page."}
+{"level":30,"time":"2022-04-22T16:38:08.853Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:08.857Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:08.857Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:08.890Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:08.895Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:08.895Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:08.946Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=#detail containing Categoria\nQuem somos\nHorários"}
+{"level":30,"time":"2022-04-22T16:38:08.946Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:08.968Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:08.968Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:08.992Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=#detail containing Categoria\nQuem somos\nHorários"}
+{"level":30,"time":"2022-04-22T16:38:08.992Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:09.013Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:09.013Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:09.036Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=#detail containing Categoria\nQuem somos\nHorários"}
+{"level":30,"time":"2022-04-22T16:38:09.036Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:09.059Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:09.059Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:09.145Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=#detail containing Categoria\nCafeteria\nQuem somos\nNada melhor que um café pra te ajudar a resolver um bug.\nHorários\nFunciona de segunda à sábado, de 6h às 22h"}
+{"level":30,"time":"2022-04-22T16:38:09.145Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:09.151Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:09.152Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with xpath=//span[text()=\"Starbugs 500 error\"]/..//a[@class=\"add-to-cart\"] in page."}
+{"level":30,"time":"2022-04-22T16:38:09.500Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:09.511Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:09.511Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#cart tr >> text=Starbugs 500 error in page."}
+{"level":30,"time":"2022-04-22T16:38:09.531Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:09.539Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:09.539Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with xpath=//th[contains(text(),\"Total\")]/..//td in page."}
+{"level":30,"time":"2022-04-22T16:38:09.662Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element xpath=//th[contains(text(),\"Total\")]/..//td containing R$ 15,60"}
+{"level":30,"time":"2022-04-22T16:38:09.663Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:09.669Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-04-22T16:38:09.958Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-04-22T16:38:09.962Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:09.965Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:09.968Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:38:09.968Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changing current active page"}
+{"level":30,"time":"2022-04-22T16:38:09.968Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:38:09.973Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:09.977Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:09.980Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:38:09.980Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:38:09.983Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:38:09.983Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:38:09.990Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:38:09.990Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changing current active page"}
+{"level":30,"time":"2022-04-22T16:38:09.990Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:38:09.994Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-04-22T16:38:10.039Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-04-22T16:38:10.045Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:10.045Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:10.050Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-04-22T16:38:12.396Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-04-22T16:38:12.406Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-04-22T16:38:12.406Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-04-22T16:38:12.449Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:38:12.769Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Video path: undefined"}
+{"level":30,"time":"2022-04-22T16:38:12.769Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:38:16.125Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method newPage"}
+{"level":30,"time":"2022-04-22T16:38:16.134Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:16.134Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with xpath=//span[contains(.,'Nunca foi tão engraçado pedir comida')] in page."}
+{"level":30,"time":"2022-04-22T16:38:16.331Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element xpath=//span[contains(.,'Nunca foi tão engraçado pedir comida')] containing Nunca foi tão engraçado pedir comida"}
+{"level":30,"time":"2022-04-22T16:38:16.331Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:16.345Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:16.345Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with text=Estou com fome! in page."}
+{"level":30,"time":"2022-04-22T16:38:16.477Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:16.481Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:16.481Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with h1 strong in page."}
+{"level":30,"time":"2022-04-22T16:38:16.500Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element h1 strong containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2022-04-22T16:38:16.500Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:16.505Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:16.505Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with text=STARBUGS COFFEE in page."}
+{"level":30,"time":"2022-04-22T16:38:16.757Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:16.762Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:16.762Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:16.775Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:16.780Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:16.780Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:16.821Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=#detail containing Categoria\nQuem somos\nHorários"}
+{"level":30,"time":"2022-04-22T16:38:16.821Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:16.834Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:16.834Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:16.863Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=#detail containing Categoria\nQuem somos\nHorários"}
+{"level":30,"time":"2022-04-22T16:38:16.863Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:16.881Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:16.881Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:16.898Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=#detail containing Categoria\nQuem somos\nHorários"}
+{"level":30,"time":"2022-04-22T16:38:16.898Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:16.911Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:16.911Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:16.925Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=#detail containing Categoria\nQuem somos\nHorários"}
+{"level":30,"time":"2022-04-22T16:38:16.925Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:16.942Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:16.942Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:16.954Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=#detail containing Categoria\nQuem somos\nHorários"}
+{"level":30,"time":"2022-04-22T16:38:16.954Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:16.973Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:16.973Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:16.998Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=#detail containing Categoria\nCafeteria\nQuem somos\nNada melhor que um café pra te ajudar a resolver um bug.\nHorários\nFunciona de segunda à sábado, de 6h às 22h"}
+{"level":30,"time":"2022-04-22T16:38:16.998Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:17.006Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:17.006Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with xpath=//span[text()=\"Cappuccino com Chantilly\"]/..//a[@class=\"add-to-cart\"] in page."}
+{"level":30,"time":"2022-04-22T16:38:17.420Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:17.428Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:17.429Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#cart tr >> text=Cappuccino com Chantilly in page."}
+{"level":30,"time":"2022-04-22T16:38:17.457Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:17.465Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:17.465Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with xpath=//span[text()=\"Super Espreso\"]/..//a[@class=\"add-to-cart\"] in page."}
+{"level":30,"time":"2022-04-22T16:38:17.584Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:17.588Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:17.588Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#cart tr >> text=Super Espreso in page."}
+{"level":30,"time":"2022-04-22T16:38:17.599Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:17.603Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:17.603Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with xpath=//span[text()=\"Starbugs 500 error\"]/..//a[@class=\"add-to-cart\"] in page."}
+{"level":30,"time":"2022-04-22T16:38:17.668Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:17.673Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:17.673Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#cart tr >> text=Starbugs 500 error in page."}
+{"level":30,"time":"2022-04-22T16:38:17.689Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:17.697Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:17.697Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with xpath=//th[contains(text(),\"Total\")]/..//td in page."}
+{"level":30,"time":"2022-04-22T16:38:17.721Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element xpath=//th[contains(text(),\"Total\")]/..//td containing R$ 38,00"}
+{"level":30,"time":"2022-04-22T16:38:17.721Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:17.726Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-04-22T16:38:17.989Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-04-22T16:38:17.993Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:17.996Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:18.000Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:38:18.000Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changing current active page"}
+{"level":30,"time":"2022-04-22T16:38:18.000Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:38:18.005Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:18.021Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:18.024Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:38:18.024Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:38:18.025Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:38:18.026Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:38:18.031Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:38:18.031Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changing current active page"}
+{"level":30,"time":"2022-04-22T16:38:18.031Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:38:18.035Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-04-22T16:38:18.080Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-04-22T16:38:18.086Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:18.087Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:18.116Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:18.117Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:18.121Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:18.121Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:18.126Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-04-22T16:38:19.996Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-04-22T16:38:20.021Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-04-22T16:38:20.021Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-04-22T16:38:20.043Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:38:20.360Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Video path: undefined"}
+{"level":30,"time":"2022-04-22T16:38:20.360Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:38:23.564Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method newPage"}
+{"level":30,"time":"2022-04-22T16:38:23.571Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:23.571Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with xpath=//span[contains(.,'Nunca foi tão engraçado pedir comida')] in page."}
+{"level":30,"time":"2022-04-22T16:38:23.783Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element xpath=//span[contains(.,'Nunca foi tão engraçado pedir comida')] containing Nunca foi tão engraçado pedir comida"}
+{"level":30,"time":"2022-04-22T16:38:23.783Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:23.789Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:23.790Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with text=Estou com fome! in page."}
+{"level":30,"time":"2022-04-22T16:38:23.910Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:23.914Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:23.914Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with h1 strong in page."}
+{"level":30,"time":"2022-04-22T16:38:23.930Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element h1 strong containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2022-04-22T16:38:23.930Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:23.935Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:23.935Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with text=DEBUGER KING in page."}
+{"level":30,"time":"2022-04-22T16:38:24.190Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:24.194Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:24.194Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:24.204Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:24.209Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:24.209Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:24.237Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=#detail containing Categoria\nQuem somos\nHorários"}
+{"level":30,"time":"2022-04-22T16:38:24.237Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:24.261Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:24.262Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:24.294Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=#detail containing Categoria\nQuem somos\nHorários"}
+{"level":30,"time":"2022-04-22T16:38:24.294Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:24.321Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:24.321Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:24.342Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=#detail containing Categoria\nQuem somos\nHorários"}
+{"level":30,"time":"2022-04-22T16:38:24.342Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:24.367Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:24.368Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:24.385Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=#detail containing Categoria\nQuem somos\nHorários"}
+{"level":30,"time":"2022-04-22T16:38:24.385Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:24.399Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:24.399Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#detail in page."}
+{"level":30,"time":"2022-04-22T16:38:24.442Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=#detail containing Categoria\nHamburgers\nQuem somos\n40 anos se especializando em trash food.\nHorários\nFunciona todos os dias, de 10h às 22h"}
+{"level":30,"time":"2022-04-22T16:38:24.443Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:24.453Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:24.453Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with xpath=//span[text()=\"Woopper Burger\"]/..//a[@class=\"add-to-cart\"] in page."}
+{"level":30,"time":"2022-04-22T16:38:24.861Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:24.868Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:24.869Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#cart tr >> text=Woopper Burger in page."}
+{"level":30,"time":"2022-04-22T16:38:24.880Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:24.888Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:24.888Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with xpath=//span[text()=\"Batatas Fritas\"]/..//a[@class=\"add-to-cart\"] in page."}
+{"level":30,"time":"2022-04-22T16:38:24.961Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:24.968Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:24.968Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#cart tr >> text=Batatas Fritas in page."}
+{"level":30,"time":"2022-04-22T16:38:24.978Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:24.987Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:24.987Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with xpath=//span[text()=\"Refrigerante\"]/..//a[@class=\"add-to-cart\"] in page."}
+{"level":30,"time":"2022-04-22T16:38:25.038Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:25.042Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:25.042Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=#cart tr >> text=Refrigerante in page."}
+{"level":30,"time":"2022-04-22T16:38:25.057Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:25.062Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:25.062Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with text=Fechar Pedido in page."}
+{"level":30,"time":"2022-04-22T16:38:25.212Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:25.216Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:25.217Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=.page-header in page."}
+{"level":30,"time":"2022-04-22T16:38:25.228Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:25.231Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:25.231Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=.page-header in page."}
+{"level":30,"time":"2022-04-22T16:38:25.253Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Retrieved text for element css=.page-header containing  Finalize o seu pedido"}
+{"level":30,"time":"2022-04-22T16:38:25.254Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getText"}
+{"level":30,"time":"2022-04-22T16:38:25.258Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-04-22T16:38:25.258Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Nome\"] in page."}
+{"level":30,"time":"2022-04-22T16:38:25.297Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method fillText"}
+{"level":30,"time":"2022-04-22T16:38:25.303Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-04-22T16:38:25.303Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"E-mail\"] in page."}
+{"level":30,"time":"2022-04-22T16:38:25.375Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method fillText"}
+{"level":30,"time":"2022-04-22T16:38:25.378Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-04-22T16:38:25.378Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=input[placeholder^=\"Confirmação\"] in page."}
+{"level":30,"time":"2022-04-22T16:38:25.422Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method fillText"}
+{"level":30,"time":"2022-04-22T16:38:25.426Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-04-22T16:38:25.426Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Endereço\"] in page."}
+{"level":30,"time":"2022-04-22T16:38:25.454Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method fillText"}
+{"level":30,"time":"2022-04-22T16:38:25.458Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method fillText"}
+{"level":30,"time":"2022-04-22T16:38:25.458Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Número\"] in page."}
+{"level":30,"time":"2022-04-22T16:38:25.493Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method fillText"}
+{"level":30,"time":"2022-04-22T16:38:25.498Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:25.498Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with xpath=(//mt-radio//label)[1]//div in page."}
+{"level":30,"time":"2022-04-22T16:38:25.559Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:25.566Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method click"}
+{"level":30,"time":"2022-04-22T16:38:25.566Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with text=Concluir Pedido in page."}
+{"level":30,"time":"2022-04-22T16:38:25.639Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method click"}
+{"level":30,"time":"2022-04-22T16:38:25.643Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:25.643Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Strict mode is enabled, find Locator with css=p >> text=Seu pedido foi recebido pelo restaurante. in page."}
+{"level":30,"time":"2022-04-22T16:38:25.840Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2022-04-22T16:38:25.847Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-04-22T16:38:26.010Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2022-04-22T16:38:26.016Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:26.028Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:26.032Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:38:26.032Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changing current active page"}
+{"level":30,"time":"2022-04-22T16:38:26.032Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:38:26.037Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:26.040Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:26.043Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:38:26.043Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:38:26.046Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:38:26.046Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2022-04-22T16:38:26.051Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active context"}
+{"level":30,"time":"2022-04-22T16:38:26.051Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changing current active page"}
+{"level":30,"time":"2022-04-22T16:38:26.052Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Changed active page"}
+{"level":30,"time":"2022-04-22T16:38:26.056Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method closeContext"}
+{"level":30,"time":"2022-04-22T16:38:26.096Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method closeContext"}
+{"level":30,"time":"2022-04-22T16:38:26.102Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:26.103Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-04-22T16:38:26.333Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-04-22T16:38:27.802Z","pid":9796,"hostname":"DESKTOP-671UE7Q","msg":"End of node method closeAllBrowsers"}
